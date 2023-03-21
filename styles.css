@@ -19,6 +19,7 @@ ul {
   list-style: none;
 }
 
+/* Start of common classes */
 .logo {
   background-color: var(--purple);
   border-radius: 100px;
@@ -27,17 +28,25 @@ ul {
   margin: 27px 73px 27px 117px;
 }
 
+.section-paragraph {
+  font-size: 15px;
+  line-height: 28px;
+}
+/* End of common styles */
+
+
+/* Start of particular classes */
+
+/* Start of header */
 .page-header {
   height: 80px;
 }
 
-.page-header-wrapper {
+.page-header-inner {
   display: flex;
   max-width: 1206px;
   margin: 0 auto;
 }
-
-.navigation-wrapper {}
 
 .page-header-column {
   display: flex;
@@ -55,14 +64,11 @@ ul {
   text-transform: capitalize;
 }
 
-
 .socials {
   display: flex;
   gap: 35px;
   align-items: center;
 }
-
-.socials-item {}
 
 .button-get-started {
   border: none;
@@ -74,40 +80,44 @@ ul {
   margin-left: 44px;
   height: 43px;
 }
+/* End of header */
 
-.page-main {}
-
-.page-article {
+/* Start of plan-your-life */
+.plan-your-life {
+  height: 570px;
+  padding-top: 92px;
+  background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
   text-align: center;
 }
 
-.page-article h4 {
+.plan-your-life-main-header {
   color: #3D4F9F;
   font-size: 10px;
-  margin-bottom: 16px;
   text-transform: uppercase;
-  margin-top: 91px;
 }
 
-.myhead {
+.plan-your-life-sub-header {
+  font-weight: normal;
   font-size: 48px;
-  margin-bottom: 28px;
   color: #3D4F9F;
 }
 
-.section-content {
-  Position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.plan-your-life-paragraph {
   width: 502px;
   font-size: 18px;
   color: #8D96BD;
-  margin-top: 28px;
+  margin: 28px auto 0 auto;
 }
 
-.play-icon {
+.plan-your-life-play-icon {
   width: 52px;
   height: 52px;
-  background-color: #87a7eb;
+  margin: 20px auto 0 auto;
+  text-align: center;
   border-radius: 100%;
+  background-color: white;
+  line-height: 52px;
 }
+/* End of plan-your-life */
+
+/* End of particular classes */
