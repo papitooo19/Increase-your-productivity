@@ -86,10 +86,16 @@ ul {
 
 /* Start of plan-your-life */
 .plan-your-life {
-  height: 570px;
+  position: relative;
   padding-top: 92px;
   background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
   text-align: center;
+}
+
+.plan-your-life-line {
+  position: absolute;
+  top: 210px;
+  left: -150px;
 }
 
 .plan-your-life-main-header {
@@ -112,6 +118,7 @@ ul {
 }
 
 .plan-your-life-play-icon {
+  position: relative;
   width: 52px;
   height: 52px;
   margin: 20px auto 0 auto;
@@ -119,6 +126,8 @@ ul {
   border-radius: 100%;
   background-color: white;
   line-height: 52px;
+  cursor: pointer;
+  z-index: 1;
 }
 
 /* End of plan-your-life */
@@ -129,8 +138,10 @@ ul {
 .ellipsis {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  width: fit-content;
+  gap: 12px;
   padding-bottom: 28px;
+  margin: 192px auto 0 auto;
 }
 
 .circle {
@@ -138,8 +149,9 @@ ul {
   height: 8px;
   border-radius: 100%;
   background-color: #5283FF;
+  cursor: pointer;
 }
 
-.circle2 {
+.circle__unactive {
   background-color: #D1D6E3;
 }
