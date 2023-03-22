@@ -32,6 +32,7 @@ ul {
   font-size: 15px;
   line-height: 28px;
 }
+
 /* End of common styles */
 
 
@@ -80,6 +81,7 @@ ul {
   margin-left: 44px;
   height: 43px;
 }
+
 /* End of header */
 
 /* Start of plan-your-life */
@@ -118,6 +120,26 @@ ul {
   background-color: white;
   line-height: 52px;
 }
+
 /* End of plan-your-life */
 
 /* End of particular classes */
+
+
+.ellipsis {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 28px;
+}
+
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #5283FF;
+}
+
+.circle2 {
+  background-color: #D1D6E3;
+}
