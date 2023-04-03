@@ -88,14 +88,11 @@ ul {
 .plan-your-life {
   position: relative;
   padding-top: 92px;
-  background: linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
   text-align: center;
-}
-
-.plan-your-life-line {
-  position: absolute;
-  top: 210px;
-  left: -150px;
+  background:
+    url(images/Vector.svg) 0 200px no-repeat,
+    url(images/plan-your-life-bg.svg) 0 200px no-repeat, 
+    linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
 }
 
 .plan-your-life-main-header {
@@ -108,6 +105,7 @@ ul {
   font-weight: normal;
   font-size: 48px;
   color: #3D4F9F;
+  line-height: 60px;
 }
 
 .plan-your-life-paragraph {
@@ -129,12 +127,9 @@ ul {
   cursor: pointer;
   z-index: 1;
 }
-
 /* End of plan-your-life */
 
-/* End of particular classes */
-
-
+/* Start of particular classes */
 .ellipsis {
   display: flex;
   justify-content: center;
@@ -155,3 +150,4 @@ ul {
 .circle__unactive {
   background-color: #D1D6E3;
 }
+/* End of particular classes */
