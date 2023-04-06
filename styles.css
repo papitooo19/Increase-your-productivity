@@ -43,9 +43,14 @@ ul {
   height: 80px;
 }
 
+.page-main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .page-header-inner {
   display: flex;
-  max-width: 1206px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -56,6 +61,7 @@ ul {
 
 .page-header-column-right {
   justify-content: end;
+  padding-right: 117px;
 }
 
 .navigation {
@@ -90,9 +96,26 @@ ul {
   padding-top: 92px;
   text-align: center;
   background:
-    url(images/Vector.svg) 0 200px no-repeat,
-    url(images/plan-your-life-bg.svg) 0 200px no-repeat, 
+    url(images/cloud.svg) 208px 47px no-repeat,
+    url(images/cloud.svg) -209px 35px / 420px no-repeat,
+    url(images/circle.svg) 1340px 187px no-repeat,
+    url(images/circle.svg) 910px 309px no-repeat,
+    url(images/circle.svg) 482px 451px no-repeat,
+    url(images/circle.svg) 67px 481px no-repeat,
+    url(images/Vector.svg) center 200px no-repeat,
+    url(images/cloud.svg) 1192px -2px / 100px no-repeat,
+    url(images/cloud.svg) 1160px -30px / 250px no-repeat,
+    url(images/cloud.svg) 1240px 45px / 130px no-repeat,
+    url(images/cloud.svg) 1150px 425px / 220px no-repeat,
+    url(images/cloud.svg) 1020px 374px / 330px no-repeat,
+    url(images/cloud.svg) 1169px 424px / 130px no-repeat,
+    url(images/cloud.svg) 200px 340px / 130px no-repeat,
+    url(images/cloud.svg) 248px 359px / 90px no-repeat,
+    url(images/cloud.svg) 210px 361px / 70px no-repeat,
+    url(images/cloud.svg) 264px 350px / 60px no-repeat,
+    url(images/plan-your-life-bg.svg) center 200px no-repeat,
     linear-gradient(180deg, #F4F7FF 0%, #F1F5FF 100%);
+
 }
 
 .plan-your-life-main-header {
@@ -127,6 +150,29 @@ ul {
   cursor: pointer;
   z-index: 1;
 }
+
+.plan-your-life-rectangle-inner {
+  position: relative;
+  left: 456px;
+  top: 33px;
+  width: 92px;
+  height: 63.26px;
+  background-color: white;
+  border: solid 0.5px #C4C4C4;
+  border-radius: 5%;
+}
+
+.plan-your-life-triangle {
+  position: absolute;
+  left: 499px;
+  top: 32px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid white;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+}
+
 /* End of plan-your-life */
 
 /* Start of particular classes */
@@ -150,4 +196,23 @@ ul {
 .circle__unactive {
   background-color: #D1D6E3;
 }
+
 /* End of particular classes */
+
+/* Start of brand-page */
+.brand-page {
+  height: 145px;
+}
+
+.brand-page-column {}
+
+.brand-navigation {
+  display: flex;
+  gap: 76px;
+  justify-content: center;
+}
+
+.brand-navigation-item {}
+
+
+/* End of brand-page */
