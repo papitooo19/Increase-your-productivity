@@ -28,11 +28,30 @@ ul {
   height: 26px;
 }
 
-.section-paragraph {
+.block-paragraph {
   font-size: 15px;
   line-height: 28px;
 }
 
+.main-block-header {
+  color: #3D4F9F;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.sub-block-header {
+  font-weight: normal;
+  font-size: 48px;
+  color: #3D4F9F;
+  line-height: 60px;
+}
+
+.block-paragraph {
+  font-size: 18px;
+  color: #8D96BD;
+  letter-spacing: 0.03em;
+  line-height: 29px;
+}
 /* End of common styles */
 
 
@@ -122,23 +141,8 @@ ul {
 
 }
 
-.plan-your-life-main-header {
-  color: #3D4F9F;
-  font-size: 10px;
-  text-transform: uppercase;
-}
-
-.plan-your-life-sub-header {
-  font-weight: normal;
-  font-size: 48px;
-  color: #3D4F9F;
-  line-height: 60px;
-}
-
 .plan-your-life-paragraph {
   width: 502px;
-  font-size: 18px;
-  color: #8D96BD;
   margin: 28px auto 0 auto;
 }
 
@@ -212,18 +216,41 @@ ul {
 
 /* Start of brand-page */
 .brand-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 145px;
 }
 
-.brand-page-column {}
-
-.brand-navigation {
+.brand-list {
   display: flex;
   gap: 76px;
   justify-content: center;
 }
-
-.brand-navigation-item {}
-
-
 /* End of brand-page */
+
+/* Start of desktop-and-mobile-app */
+.desktop-and-mobile-app {
+  display: flex;
+  align-items: center;
+  height: 776px;
+  background-color: #F5F8FF;
+}
+
+.desktop-and-mobile-app-column {
+  flex: 1;
+}
+
+.desktop-and-mobile-app-column-content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.desktop-and-mobile-app-column-inner {
+  width: 413px;
+}
+
+.desktop-and-mobile-app-column-paragraph {
+
+}
+/* End of desktop-and-mobile-app */
